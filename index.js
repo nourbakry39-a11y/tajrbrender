@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors"); // install with npm i cors
 const app = express();
 const PORT = process.env.PORT || 3000;
 
