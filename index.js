@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 // Example route
 app.get("/", (req, res) => {
-  res.json("{id:1,name:'riri'}");
+  res.json({id:1,name:"riri"});
 });
 
 // Start server
